@@ -25,7 +25,12 @@
     },
     "ghcr.io/devcontainers/features/aws-cli:1": {},
     "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
-    "ghcr.io/jungaretti/features/make:1": {}
+    "ghcr.io/jungaretti/features/make:1": {},
+    "ghcr.io/devcontainers/features/conda:1": {},
+    "ghcr.io/devcontainers/features/nvidia-cuda:1" : {
+      "installCudnn" : true,
+      "installToolkit" : true
+    }
   },
   "remoteUser": "root",
   "customizations": {
